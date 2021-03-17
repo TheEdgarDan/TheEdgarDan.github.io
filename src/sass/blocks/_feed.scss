@@ -1,0 +1,38 @@
+.feed {
+    padding-bottom: 70px;
+    &-item {
+        display: flex;
+        border-bottom: 1px solid #f6f6f6;
+        margin-top: 53px;
+        padding-bottom: 48px;
+        &:nth-child(3) {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        &__text {
+            padding-right: 60px;
+        }
+        &__img {
+            width: 169px;
+            height: 169px;
+            margin-right: 62px;
+        }
+        &__full-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+        &__about {
+            font-size: 14px;
+            font-weight: 300;
+            color: #646464;
+            margin-top: 10px;
+        }
+        &__descr {
+            font-size: 16px;
+            font-weight: 300;
+            color: #0d0d0d;
+            margin-top: 20px;
+        }
+    }
+}
