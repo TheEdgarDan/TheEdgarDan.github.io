@@ -42,9 +42,9 @@
         border: 2px solid #ffffff;
         border-radius: 100%;
         margin: 0 15px;
-        transition: 0.2s all;
+        transition: 1s;
         &:hover {
-            box-shadow: 0px 0px 15px #ffffff;
+            transform: scale(1.2);
         }
         img {
             height: 27px;
