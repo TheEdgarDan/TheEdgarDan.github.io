@@ -132,12 +132,11 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 margin-left: 0px;
                 transform: translateX(-100%);
             }
-            li {
+            &__li {
                 position: relative;
                 font-size: 14px;
                 font-weight: 300;
